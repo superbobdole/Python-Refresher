@@ -12,4 +12,4 @@ elif day_of_week == "tuesday":
 else:
     print("cool")
 
-print("This code always runs.")
+print("This code always runs - Cool Running is a good movie")

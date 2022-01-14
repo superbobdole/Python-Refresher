@@ -2,6 +2,7 @@ art = {"Bob", "Jen", "Rolf", "Charlie"}
 science = {"Bob", "Jen", "Adam", "Anne"}
 
 both = art.intersection(science)
+#figures out the common items in two sets
 print(both)
 
 set1 = {14, 5, 9, 31, 12, 77, 67, 8}

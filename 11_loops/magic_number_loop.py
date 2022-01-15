@@ -1,9 +1,9 @@
 number = 7
 
-while user_input != "n":
+while True:
     user_input = input("Would you like to play? (Y/n) ").lower()
 
-    if user_input == "n"
+    if user_input == "n":
         break
 
     user_number = int(input("Guess the number: "))

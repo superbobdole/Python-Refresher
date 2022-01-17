@@ -1,6 +1,6 @@
 friend_ages = {"Rolf": 24, "Adam": 30, "Anne": 27}
-
-print(friend_ages["Adam"])
+adam_age = {friend_ages["Adam"]}
+print(f"Adam's age is: {adam_age}")
 # you cannot call a number in dictionaries, you have to call the key
 friend_ages["Bob"] = 43 # add an entry
 # - ["Bob"] is subscript notation

@@ -18,6 +18,5 @@ for student in student_attendance:#not a great way to do this??
     print(f"{student}: {student_attendance[student]}")
 print("=====")
 #better way
-for student, attend in student_attendance.items():
+for student, attendance in student_attendance.items():
     print(f"{student}: {student_attendance[student]}")
-    

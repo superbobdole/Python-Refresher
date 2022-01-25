@@ -1,6 +1,12 @@
-def divide(divident, divisor):
+def divide(dividend, divisor):
     if divisor == 0:
-        print("Divisor cannot be 0.")
-        return
+        raise ZeroDivisionError("Divisor cannot be 0.")
 
-divide(14, 0)
+    return dividend / divisor
+
+grades = []
+
+print("Welcome to grade program")
+average = divide(sum(grades), len(grades))
+
+print(f"The average grade is {average}.")

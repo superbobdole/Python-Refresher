@@ -22,5 +22,5 @@ class Book:
 
 
 python101 = Book("Python 101", 50)
-python101 = read(35)
-python101 = read(50)
+python101.read(35)
+python101.read(50)

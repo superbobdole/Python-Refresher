@@ -22,5 +22,9 @@ class Book:
 
 
 python101 = Book("Python 101", 50)
-python101.read(35)
-python101.read(50)
+try:
+    python101.read(35)
+    python101.read(50)
+except TooManyPagesReadError as e:
+    print(e)
+#  use the except statement above to send the error to the user in the form of a print

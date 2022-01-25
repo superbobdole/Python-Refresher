@@ -1,7 +1,5 @@
 from typing import List
 
-Class Book
-    pass
 
 
 class BookShelf:
